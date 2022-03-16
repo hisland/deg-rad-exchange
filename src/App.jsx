@@ -51,9 +51,11 @@ function App() {
   return (
     <div>
       <div>
+        <span>宽:</span>
         <input type="text" value={obj.width} onChange={setWidth} />
       </div>
       <div>
+        <span>高:</span>
         <input type="text" value={obj.height} onChange={setHeight} />
       </div>
       <div>tan_value: {obj.tan_value}</div>
